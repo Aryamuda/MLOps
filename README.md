@@ -14,4 +14,3 @@ membuat laporan.
 - Panduan menjalankan proyek: [`Hands-on-1/README.md`](Hands-on-1/README.md)
 - Tangkapan layar MLflow: `Hands-on-1/images/`
 
-File Markdown dan PDF selain README diabaikan oleh Git.

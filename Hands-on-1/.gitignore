@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+*.md
+!README.md
+!**/README.md
+*.pdf
+.dvc/cache/
+.dvc/tmp/
+dvc-storage/
+mlartifacts/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+*.log

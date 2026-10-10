@@ -1,0 +1,17 @@
+{
+  "dataset": "scikit-learn load_digits",
+  "source": "scikit-learn built-in dataset (8x8 grayscale, 10 classes)",
+  "n_samples": 1797,
+  "image_shape": [
+    8,
+    8
+  ],
+  "normalization": "pixel values divided by 16 into [0, 1]",
+  "split_seed": 2026,
+  "split_counts": {
+    "train": 1257,
+    "validation": 270,
+    "test": 270
+  },
+  "sha256": "3d0a593405df7aec678661122b2a47a98b3ee6806bef1175f27f82bafe4928a9"
+}

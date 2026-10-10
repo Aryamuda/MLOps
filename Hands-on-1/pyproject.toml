@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops-hands-on-1"
+version = "0.1.0"
+description = "Reproducible MLflow CNN experiment tracking exercise"
+requires-python = ">=3.11"
+dependencies = [
+  "dvc>=3.50,<4",
+  "matplotlib>=3.8,<4",
+  "mlflow>=3.0,<4",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.5,<2",
+  "torch>=2.3,<3",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.6,<1"]
+
+[tool.setuptools.packages.find]
+include = ["hands_on*"]
