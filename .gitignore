@@ -1,0 +1,5 @@
+# Abaikan dokumen dan hasil ekspor di root, kecuali README.
+*.md
+!README.md
+!**/README.md
+*.pdf
